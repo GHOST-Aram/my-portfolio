@@ -56,6 +56,19 @@ nav{
 	padding-block: .5rem;
 }
 
+.project-description, .project-title{
+	color: #94a3b8;
+}
+
+.projects{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.projects img{
+	max-width: 300px;
+}
+
 .section-title{
 	padding-block: .5rem;
 	color: #94a3b8;
