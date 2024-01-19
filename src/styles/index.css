@@ -13,26 +13,31 @@ code {
     monospace;
 }
 
+.container{
+	padding-inline: 5vw;
+}
+
 .hero{
 	display: flex;
+	flex-direction: column;
 	padding: 1rem;
 	margin-block: 1rem;
 	background-color: #111827;
 	gap: 2rem;
 	align-items: center;
 	justify-content: space-between;
-  }
-  
-  .hero h1{
+}
+
+.hero h1{
 	color: #94a3b8;
 	text-align: center;
-  }
-  
-  .hero img{
-	  width: 25rem;
-	  height: 25rem;
-	  border-radius: 12.5rem;
-  }
+}
+
+.hero img{
+	width: 25rem;
+	height: 25rem;
+	border-radius: 12.5rem;
+}
 
 nav a{
 	padding-inline: 2rem;
@@ -44,11 +49,32 @@ nav a{
 }
 
 nav{
-  background-color: #111827;
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  align-items: center;
+	background-color: #111827;
+	gap: 1rem;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	padding-block: .5rem;
 }
 
+.section-title{
+	padding-block: .5rem;
+	color: #94a3b8;
+	margin: auto;
+}
+.text-center{
+	text-align: center;
+}
+
+
+@media (min-width: 768px){
+	.hero{
+		flex-direction: row;
+	}
+
+	nav{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
 
