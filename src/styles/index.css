@@ -74,6 +74,19 @@ nav{
 	color: #94a3b8;
 	margin: auto;
 }
+.skills{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: .25rem;
+}
+.skill-pallet{
+	padding-inline: 2rem;
+	padding-block: 1rem;
+	border-radius: .25rem;
+	color: #94a3b8;
+	background-color: #111827	;
+	text-align: center;
+}
 .text-center{
 	text-align: center;
 }
