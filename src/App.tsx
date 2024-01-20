@@ -1,4 +1,5 @@
 import Header from './components/Header';
+import HorizontalLine from './components/HorizontalLine';
 import Navbar from './components/Navbar';
 import About from './containers/About';
 import Hero from './containers/Hero';
@@ -11,10 +12,13 @@ function App() {
 			<Header>
 				<Navbar />
 			</Header>
-			<Hero />
-			<Projects />
-			<Skills />
-			<About />
+			<main>
+				<Hero />
+				<Projects />
+				<Skills />
+				<About />
+			</main>
+			<HorizontalLine />
 		</div>
 	);
 }
