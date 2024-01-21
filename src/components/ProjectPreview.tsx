@@ -1,20 +1,24 @@
 import Image from './Image'
+import { ProjectProps } from '../projects-details'
 
-const ProjectPreview = ({ imageSrc, altText, description, title }: ProjectProps) => {
-    return (
-        <div className="project-preview">
-            <h2 className="project-title">{title}</h2>
-            <Image alt={altText} src={imageSrc}/>
-            <p className="project-description">{description}</p>
-        </div>
-    )
+const ProjectPreview = (
+    { imageSrc, altText, description, title, liveUrl, sourceUrl }: ProjectProps
+    ) => {
+
+        return (
+            <div className="project-preview">
+                <h2 className="project-title">{title}</h2>
+                <Image alt={altText} src={imageSrc}/>
+                <p className="project-description">{description}</p>
+                <div className="flex gap-8 view-btns">
+                    <a href={liveUrl}>
+                        <button>View Live</button>
+                    </a>
+                    <a href={sourceUrl}>
+                        <button>View Code</button>
+                    </a>
+                </div>
+            </div>
+        )
 }
-
-interface ProjectProps{
-    title: string
-    imageSrc: string
-    altText: string
-    description: string
-}
-
 export default ProjectPreview

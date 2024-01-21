@@ -138,6 +138,24 @@ nav{
 	width: 100%;
 }
 
+.view-btns{
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	
+}
+.view-btns a{
+	width: 100%;
+}
+.view-btns button{
+	width: 100%;
+	background-color: #f5f5f4;
+	color: #111827;
+	border: none;
+	padding-block: .7rem;
+	border-radius: 4px;
+}
+
 .project-preview{
 	display: flex;
 	flex-direction: column;
