@@ -5,7 +5,7 @@ import Image from '../components/Image'
 
 const About = () => {
   return (
-    <section>
+    <section id='#about'>
         <SectionTitle text='About Me'/>
         <div className="container about">
             <div className="text-center">

@@ -1,4 +1,4 @@
-import Header from './components/Header';
+import Header from './containers/Header';
 import HorizontalLine from './components/HorizontalLine';
 import Navbar from './components/Navbar';
 import About from './containers/About';

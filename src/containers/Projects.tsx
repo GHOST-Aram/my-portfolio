@@ -4,7 +4,7 @@ import { projects } from '../projects-details'
 
 const Projects = () => {
   return (
-    <section>
+    <section id='#projects'>
         <SectionTitle text='Projects'/>
         <div className="container projects">
 			{

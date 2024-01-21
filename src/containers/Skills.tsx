@@ -4,7 +4,7 @@ import { skills } from '../skills'
 
 const Skills = () => {
   return (
-    <section>
+    <section id='#skills'>
         <SectionTitle text='Skills & Tools'/>
         <div className="container skills">
             {

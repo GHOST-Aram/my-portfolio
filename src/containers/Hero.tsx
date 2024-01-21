@@ -3,7 +3,7 @@ import Image from '../components/Image'
 
 const Hero = () => {
     return (
-        <section>
+        <section id='#home'>
             <div className="container hero">
                 <Image alt='my image' 
                 src={'https://media.licdn.com/dms/image/C4D03AQEBQa4CKdRz3A/'+

@@ -1,17 +1,52 @@
-import { NavLink } from "react-router-dom"
-
+import { Link } from 'react-scroll'
 const Navbar = () => {
     return (
         <nav className="flex gap-8 items-center">
             <div className="flex gap-8 nav-items">
-                <NavLink to={'/'}>Home</NavLink>
-                <NavLink to={'#projects'}>Projects</NavLink>
-                <NavLink to ={'#skills'}>Skills</NavLink>
+                <Link
+                    to={'home'}
+                    spy={true}
+                    smooth={true}
+                    activeClass='active'
+                    duration={500}
+                >Home</Link>
+                <Link
+                    to={'projects'}
+                    spy={true}
+                    smooth={true}
+                    activeClass='active'
+                    duration={500}
+                >Projects</Link>
+                <Link
+                    to ={'skills'}
+                    spy={true}
+                    smooth={true}
+                    activeClass='active'
+                    duration={500}
+                >Skills</Link>
             </div>
             <div className="flex gap-8 nav-items">
-                <NavLink to={'https://dev.to/ghostaram'}>Blog</NavLink>
-                <NavLink to={'#about'}>About</NavLink>
-                <NavLink to={'#contact'}>Contact</NavLink>
+                <Link
+                    to={'https://dev.to/ghostaram'}
+                    spy={true}
+                    smooth={true}
+                    activeClass='active'
+                    duration={500}
+                >Blog</Link>
+                <Link
+                    to={'about'}
+                    spy={true}
+                    smooth={true}
+                    activeClass='active'
+                    duration={500}
+                >About</Link>
+                <Link
+                    to={'contact'}
+                    spy={true}
+                    smooth={true}
+                    activeClass='active'
+                    duration={500}
+                >Contact</Link>
             </div>
             {/* <div className="flex gap-8 nav-items">
             </div> */}
