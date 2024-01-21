@@ -1,5 +1,7 @@
 import SectionTitle from '../components/SectionTitle'
 import SkillPallet from '../components/SkillPallet'
+import { skills } from '../skills'
+
 const Skills = () => {
   return (
     <section>
@@ -14,11 +16,4 @@ const Skills = () => {
     </section>
   )
 }
-
-const skills: string[] = [
-'Frontend development', 'Backend development', 'React',
-'CSS', 'HTML', 'Nodejs', 'JavaScript' , 'Typescript',
-'Material UI', 'Tailwind', 'MongoDB', 'Postman', 'API testing', 
-'API documentation','Technical article writing', 'Express JS'
-]
 export default Skills

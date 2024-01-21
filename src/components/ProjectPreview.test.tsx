@@ -41,4 +41,17 @@ describe('Project preview', () => {
         const description = screen.getByText(/This is it/)
         expect(description).toBeInTheDocument()
     })
+
+    test('Renders the \'View Live\' button', () =>{
+        render(<ProjectPreview 
+            imageSrc=""
+            altText=""
+            description="This is it"
+            title=""
+        />)
+
+    const viewLiveBtn = screen.getByRole("button", { name: /view live/i})
+
+    expect(viewLiveBtn).toBeInTheDocument()
+    })
 })
