@@ -1,6 +1,7 @@
 import SectionTitle from '../components/SectionTitle'
-import ImgSrc from '../images/online-liquor-store.png'
+import liqourImgSrc from '../images/online-liqour-store.png'
 import ProjectPreview from '../components/ProjectPreview'
+import memoryGameImgSrc from '../images/memeory-game.png'
 
 const Projects = () => {
   return (
@@ -30,24 +31,24 @@ const projects = [
 			'Facere expedita, modi quas doloribus amet magnam deserunt consectetur'+
 			' dolore et, enim voluptatibus, aut odio.',
 		altText: 'online liqour store' ,
-		imageSrc: ImgSrc,
+		imageSrc: liqourImgSrc,
     }, {
-		title: 'Online Liqour Store',
+		title: 'Memory Game',
 		description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. '+
 			'Nulla praesentium saepe ullam necessitatibus quidem magnam. '+
 			'Facere expedita, modi quas doloribus amet magnam deserunt consectetur'+
 			' dolore et, enim voluptatibus, aut odio.',
 		altText: 'online liqour store' ,
-		imageSrc: ImgSrc
+		imageSrc: memoryGameImgSrc
 	},
 	{
-		title: 'Online Liqour Store',
+		title: 'Memory Game',
 		description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. '+
 			'Nulla praesentium saepe ullam necessitatibus quidem magnam. '+
 			'Facere expedita, modi quas doloribus amet magnam deserunt consectetur'+
 			' dolore et, enim voluptatibus, aut odio.',
 		altText: 'online liqour store' ,
-		imageSrc: ImgSrc
+		imageSrc: memoryGameImgSrc
 	}
 ]
 export default Projects
