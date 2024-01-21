@@ -2,7 +2,7 @@ import React, { ReactComponentElement } from 'react'
 
 const Footer = ({ children }: FooterProps) => {
   return (
-    <footer className='container flex justify-space-between'>{ children }</footer>
+    <footer className='container flex'>{ children }</footer>
   )
 }
 

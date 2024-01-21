@@ -18,6 +18,7 @@ const Skills = () => {
 const skills: string[] = [
 'Frontend development', 'Backend development', 'React',
 'CSS', 'HTML', 'Nodejs', 'JavaScript' , 'Typescript',
-'Material UI', 'Tailwind', 'MongoDB'
+'Material UI', 'Tailwind', 'MongoDB', 'Postman', 'API testing', 
+'API documentation','Technical article writing', 'Express JS'
 ]
 export default Skills
