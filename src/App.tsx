@@ -5,7 +5,7 @@ import About from './containers/About';
 import Hero from './containers/Hero';
 import Projects from './containers/Projects';
 import Skills from './containers/Skills';
-import ContactsAndMore from './containers/ContactsAndMore';
+import Footer from './containers/Footer';
 
 function App() {
 	return (
@@ -20,7 +20,7 @@ function App() {
 				<About />
 			</main>
 			<HorizontalLine />
-			<ContactsAndMore />
+			<Footer />
 		</div>
 	);
 }
