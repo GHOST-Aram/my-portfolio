@@ -1,18 +1,15 @@
 import React from 'react'
-import LocationAddress from '../components/LocationAddress'
-import InternetMedia from '../components/InternetMedia'
-import EmailAndPhone from '../components/EmailAndPhone'
+import EmailAndPhone from '../components/ContactLinks'
 
 const Footer = () => {
   return (
-    <footer className='container flex'>
-      <LocationAddress city='Kisumu' street='Maseno University' country='Kenya'/>
-			<InternetMedia />
+    <footer className='container'>
 			<EmailAndPhone 
 				email='owinoojala254@gmail.com'
 				phone='+254796699806'
 				whatsapp='+254796699806'
 			/>
+			<p>Copyright &copy; Felix Owino Ojala {new Date().getFullYear()}</p>
     </footer>
   )
 }
