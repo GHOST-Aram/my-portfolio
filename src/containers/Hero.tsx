@@ -12,9 +12,10 @@ const Hero = () => {
                 />
                 <div>
                 <h1 className="developers-name"> {'Felix Owino Ojala'}</h1>
-                <HeroText text={'Lorem ipsum dolor sit amet consectetur adipisicing elit. '
-                    +'Sint earum consequatur perspiciatis. '+
-                    'Ut voluptate delectus quod doloribus quisquam corporis. Officiis.'}
+                <HeroText text={"I am a solution oriented fullstack web developer. I have 1 year of experience "+
+                "in working with web development technologies such as React and Express. " +
+                "My top development language is JavaScript with Typescript on both frontend and "+
+                " backend."}
                 />
                 </div>
             </div>

@@ -18,16 +18,13 @@ const About = () => {
                 <h2 className="developers-name"> {'Felix Owino Ojala'}</h2>
             </div>
             <AboutText text={
-                'Lorem, ipsum dolor sit amet consectetur adipisicing elit. ' +
-                'Assumenda dignissimos accusamus dolor, perferendis consequatur eos '+
-                'libero nam doloremque beatae qui vero, molestiae et rem provident a'+
-                'b blanditiis quis aut repellat? Eius asperiores, eos nam amet ipsam '+
-                'error natus facilis blanditiis.'+
-                'Lorem, ipsum dolor sit amet consectetur adipisicing elit. ' +
-                'Assumenda dignissimos accusamus dolor, perferendis consequatur eos '+
-                'libero nam doloremque beatae qui vero, molestiae et rem provident a'+
-                'b blanditiis quis aut repellat? Eius asperiores, eos nam amet ipsam '+
-                'error natus facilis blanditiis.'
+                'I have a background in computer science. I also took a fullstack web development ' +
+                'course with JavaScript from The Odin Project. I develop both backend and frontend web '+
+                'based applications. I prefer to work with people in teams as it allows me to only '+
+                'focus on what I can do best. Team work also allows me to let others do what they'+
+                ' can do best. I like to write articles about technical solutions with the faith that it can '+
+                'make someone\'s life easier while learning. ' +
+                'My goal is to be as useful to other people as possible using my technical skills.'
             }/>
         </div>
     </section>

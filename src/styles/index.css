@@ -162,6 +162,7 @@ nav{
 	align-items: center;
 	background-color: #111827;
 	padding: 1rem;
+	justify-content: space-between;
 }
 section{
 	margin-block: .5rem;
