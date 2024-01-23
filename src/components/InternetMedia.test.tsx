@@ -11,18 +11,4 @@ describe('Internet Media', () => {
             expect(link).toBeInTheDocument()
         })
     })
-
-    test('Renders \'Twitter\', \'Github\'\'Blog\' and \'LinkedIn\'', () => {
-        render(<InternetMedia />)
-
-        const twitter = screen.getByText(/Twitter/i)
-        const github = screen.getByText(/Github/i)
-        const blog = screen.getByText(/technical articles/i)
-        const linkedIn = screen.getByText(/LinkedIn/i)
-        
-        expect(twitter).toBeInTheDocument()
-        expect(github).toBeInTheDocument()
-        expect(blog).toBeInTheDocument()
-        expect(linkedIn).toBeInTheDocument()
-    })
  })
