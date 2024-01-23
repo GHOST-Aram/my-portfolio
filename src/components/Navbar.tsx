@@ -26,13 +26,7 @@ const Navbar = () => {
                 >Skills</Link>
             </div>
             <div className="flex gap-8 nav-items">
-                <Link
-                    to={'https://dev.to/ghostaram'}
-                    spy={true}
-                    smooth={true}
-                    activeClass='active'
-                    duration={500}
-                >Blog</Link>
+                <a href={'https://dev.to/ghostaram'}>Blog</a>
                 <Link
                     to={'about'}
                     spy={true}
