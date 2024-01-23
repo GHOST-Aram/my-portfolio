@@ -24,7 +24,8 @@ const About = () => {
                 'focus on what I can do best. Team work also allows me to let others do what they'+
                 ' can do best. I like to write articles about technical solutions with the faith that it can '+
                 'make someone\'s life easier while learning. ' +
-                'My goal is to be as useful to other people as possible using my technical skills.'
+                'My goal is to be as useful to other people as possible using my technical skills. '+
+                'I believe that production unites people just as families unites family members.'
             }/>
         </div>
     </section>
