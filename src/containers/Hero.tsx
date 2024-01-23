@@ -1,5 +1,6 @@
 import HeroText from '../components/HeroText'
 import Image from '../components/Image'
+import InternetMedia from '../components/InternetMedia'
 
 const Hero = () => {
     return (
@@ -11,12 +12,13 @@ const Hero = () => {
                     'e=1710979200&v=beta&t=sLCHENnOk7Ln17WUEuQjYKJbXg5nw0KpZLv1dHThU-I'}
                 />
                 <div>
-                <h1 className="developers-name"> {'Felix Owino Ojala'}</h1>
-                <HeroText text={"I am a solution oriented fullstack web developer. I have 1 year of experience "+
-                "in working with web development technologies such as React and Express. " +
-                "My top development language is JavaScript with Typescript on both frontend and "+
-                " backend."}
-                />
+                    <h1 className="developers-name"> {'Felix Owino Ojala'}</h1>
+                    <HeroText text={"I am a solution oriented fullstack web developer. I have 1 year of experience "+
+                    "in working with web development technologies such as React and Express. " +
+                    "My top development language is JavaScript with Typescript on both frontend and "+
+                    " backend."}
+                    />
+                    <InternetMedia />   
                 </div>
             </div>
         </section>

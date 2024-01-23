@@ -38,6 +38,14 @@ code {
     monospace;
 }
 
+.contact-links{
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+	justify-content: center;
+	width: 100%;
+}
+
 .container{
 	padding-inline: 5vw;
 }
@@ -56,9 +64,14 @@ code {
 
 footer{
 	background-color: #111827;
-	padding-block-end: 2rem;
-	flex-direction: column;
-	align-items: center;
+	padding-block: 1rem;
+	text-align: center;
+}
+
+footer p{
+	padding: 0;
+	margin: 0;
+	font-size: .8rem;
 }
 
 .items-center{
@@ -189,6 +202,11 @@ section{
 }
 .text-center{
 	text-align: center;
+}
+
+.social-media{
+	align-items: center;
+	justify-content: center;
 }
 
 
