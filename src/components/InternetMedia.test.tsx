@@ -11,4 +11,15 @@ describe('Internet Media', () => {
             expect(link).toBeInTheDocument()
         })
     })
+
+    test('Renders 4 buttons', () => {
+        render(<InternetMedia/>)
+        
+        const buttons = screen.getAllByRole('button')
+
+        expect(buttons).toHaveLength(4)
+        buttons.forEach(btn => {
+            expect(btn).toBeInTheDocument()
+        })
+    })
  })

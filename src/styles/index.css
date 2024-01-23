@@ -54,6 +54,14 @@ code {
 	width: 100%;
 }
 
+.social-media button{
+	padding: .8rem;
+	background-color: #1f2937;
+	border-radius: 1rem;
+	border: none;
+
+}
+
 #contact{
 	padding-block: 2rem;
 	margin-bottom: 12rem;
@@ -194,6 +202,7 @@ nav{
 	border: none;
 	padding-block: .7rem;
 	border-radius: 4px;
+	gap: 1rem;
 }
 
 .project-preview{
