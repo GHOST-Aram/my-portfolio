@@ -6,6 +6,7 @@ import Hero from './containers/Hero';
 import Projects from './containers/Projects';
 import Skills from './containers/Skills';
 import Footer from './containers/Footer';
+import Contact from './containers/Contact';
 
 function App() {
 	return (
@@ -18,6 +19,7 @@ function App() {
 				<Projects />
 				<Skills />
 				<About />
+				<Contact />
 			</main>
 			<HorizontalLine />
 			<Footer />

@@ -54,6 +54,13 @@ code {
 	width: 100%;
 }
 
+#contact{
+	padding-block: 2rem;
+	margin-bottom: 12rem;
+}
+
+
+
 .container{
 	padding-inline: 5vw;
 }
@@ -135,7 +142,7 @@ header{
 	align-items: center;
 }
 
-main{
+#home{
 	padding-top: 3.9rem;
 }
 
@@ -197,12 +204,10 @@ nav{
 	padding: 1rem;
 	justify-content: space-between;
 }
-section{
-	margin-block: .5rem;
-}
 
 .section-title{
-	padding-block: .5rem;
+	padding-block-start: 6rem;
+	padding-block-end: 1rem;
 	color: #94a3b8;
 	margin: auto;
 }
@@ -256,6 +261,9 @@ section{
 	footer{
 		flex-direction: row;
 		justify-content: space-between;
+	}
+	.section-title{
+		padding-block-start: 5rem;
 	}
 }
 
