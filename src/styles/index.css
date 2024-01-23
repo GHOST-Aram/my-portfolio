@@ -3,6 +3,10 @@
 	font-size: 1rem;
 	font-weight: 300;
 }
+.about img, .about .developers-name{
+	display: none;
+}
+
 .about img, .hero img{
 	width: 20rem;
 	height: 20rem;
@@ -91,6 +95,14 @@ footer p{
 .gap-8{
 	gap: 1rem;
 }
+
+header{
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+}
+
 .hero{
 	display: flex;
 	flex-direction: column;
@@ -117,6 +129,10 @@ footer p{
 
 .text-center{
 	align-items: center;
+}
+
+main{
+	padding-top: 3.9rem;
 }
 
 nav a{
@@ -224,6 +240,10 @@ section{
 
 	.about{
 		flex-direction: row-reverse;
+	}
+
+	.about img, .about .developers-name{
+		display: block;
 	}
 
 	.about-text{
